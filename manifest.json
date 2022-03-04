@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Study Time",
+    "description": "Extensão pessoal para estudar",
+    "author": "Moby",
+    "browser_action": {
+        "default_title": "Study Time",
+        "default_popup": "index.html"
+    },
+    "icons":{
+        "16": "study16.png",
+        "32": "study32.png",
+        "128": "study128.png"
+    }
+}
+

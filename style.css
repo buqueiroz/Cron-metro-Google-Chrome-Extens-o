@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'victor mono';
+    src: url(../cronome/fonts/VictorMono-Bold.ttf);
+}
+
+:root {
+    --black-matte: #14181c;
+    --gray-matte: #2c3440;
+    --gray: rgb(170, 178, 187);
+    --fluorescent-green: #00e054;
+    --fluorescent-yellow: #f3f58f;
+    --royal-blue: #4169e1;
+    --red: #ff6767;
+    --blue: #8fbafc;
+
+
+    --fonte-padrão: arial, Arial, Verdana, Helvetica, sans-serif;;
+    --fonte-destaque: 'victor mono', cursive; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: var(--gray-matte);
+}
+
+main {
+    min-width: 300px;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+h1 {
+    font-family: victor mono;
+    color: var(--fluorescent-yellow);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+h1#counter {
+    color: var(--gray);
+}
+
+#counter {
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+
+section {
+    margin: auto;
+    max-width: 230px;
+    padding-bottom: 20px;
+}
+
+section > button {
+    margin: 2px;
+    width: 70px;
+    font-family: var(--fonte-destaque);
+}
+
+section > button:hover {
+    margin: 2px;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.2s;
+    
+}
+
+.bg-green {
+    background-color: var(--fluorescent-green);
+    color: var(--black-matte);
+    font-weight: bold;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 3px;
+}
+
+.bg-green {
+    background-color: var(--fluorescent-green);
+    color: var(--black-matte);
+    font-weight: bold;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 3px;
+}
+
+.bg-blue {
+    background-color: var(--blue);
+    color: var(--black-matte);
+    font-weight: bold;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 3px;
+}
+
+.bg-red {
+    background-color: var(--red);
+    color: var(--black-matte);
+    font-weight: bold;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 3px;
+}
