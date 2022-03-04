@@ -1,4 +1,5 @@
 # Cronometro-Google-Chrome-Extensao
 Cronômetro - Google Chrome Extensão
 
-<img href="">
+<img src="cron.png" alt="some text">
+
